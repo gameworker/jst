@@ -1,0 +1,23 @@
+{
+  "name": "jst",
+  "version": "1.0.0",
+  "description": "JavaScript Toolkit",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameworker/jst.git"
+  },
+  "keywords": [
+    "javascript",
+    "toolkit"
+  ],
+  "author": "gameworker <info@gameworker.de> (http://www.gameworker.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gameworker/jst/issues"
+  },
+  "homepage": "https://github.com/gameworker/jst#readme"
+}
