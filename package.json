@@ -1,5 +1,5 @@
 {
-  "name": "jst",
+  "name": "@gameworker/jst",
   "version": "1.0.0",
   "description": "JavaScript Toolkit",
   "main": "src/index.js",
