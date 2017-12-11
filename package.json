@@ -1,8 +1,8 @@
 {
   "name": "@gameworker/jst",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "JavaScript Toolkit",
-  "main": "src/index.js",
+  "main": "dist/jst.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/gameworker/jst/issues"
   },
-  "homepage": "https://github.com/gameworker/jst#readme"
+  "homepage": "https://github.com/gameworker/jst#readme",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-uglify": "3.2.1"
+  }
 }
