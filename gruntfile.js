@@ -9,7 +9,7 @@ module.exports = function(grunt){
             },
 
             dist: {
-                src: ['src/**/*'],
+                src: ['src/*'],
                 dest: 'dist/jst.js'
             }
         },

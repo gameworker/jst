@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var index = require('./index');
+var index = require('../index');
 
 describe('jst', function(){
     describe('isNode', function(){

@@ -4,8 +4,8 @@
   "description": "JavaScript Toolkit",
   "main": "dist/jst.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w",
-    "test:single": "mocha src/index.test.js"
+    "test": "mocha src/test/index.test.js -w",
+    "test:single": "mocha src/test/index.test.js"
   },
   "repository": {
     "type": "git",
