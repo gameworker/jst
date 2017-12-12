@@ -1,20 +1,3 @@
-//'use strict';
-
-var JST = (function(){
-
-    var _test = function(){
-      console.log('test');
-    };
-
-    var test = function(){
-        _test();
-    };
-
-    return {
-        test: test
-    }
-})();
-
 (function(_jst){
 
     _jst.isNode = function(){return typeof global !== "undefined" && ({}).toString.call(global) === '[object global]';};

@@ -1,11 +1,11 @@
 {
   "name": "@gameworker/jst",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript Toolkit",
   "main": "dist/jst.js",
   "scripts": {
-    "test": "mocha src/test/index.test.js -w",
-    "test:single": "mocha src/test/index.test.js"
+    "test": "mocha src/test/jst.test.js -w",
+    "test:single": "mocha src/test/jst.test.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-uglify": "3.2.1",
     "grunt-contrib-watch": "1.0.0",
-    "mocha": "4.0.1"
+    "mocha": "4.0.1",
+    "rewire": "3.0.2"
   }
 }
