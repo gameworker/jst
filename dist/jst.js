@@ -1,19 +1,12 @@
-//'use strict';
-
+/*! 
+* @gameworker/jst v0.1.4
+* https://github.com/gameworker/jst.git
+* Copyright (c) 2017 gameworker
+* Licensed MIT
+*/
 var JST = (function(){
-
-    var _test = function(){
-      console.log('test');
-    };
-
-    var test = function(){
-        _test();
-    };
-
-    return {
-        test: test
-    }
-})();
+    return {}
+})(); 
 
 (function(_jst){
 
@@ -30,12 +23,12 @@ var JST = (function(){
                     if (err)
                     {
                         console.warn('JST.isOnline() : false -> No connection to ' + _host);
-                        _callback(false);
+                        _callback.call(this, false);
                     }
                     else
                     {
                         console.log('JST.isOnline() : true -> ' + _host, "is reachable.");
-                        _callback(true);
+                        _callback.call(this, true);
                     }
                 });
             }

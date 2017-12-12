@@ -1,25 +1,47 @@
 var rewire = require('rewire');
 var expect = require('chai').expect;
-var jst = rewire('../../dist/jst.js');
+var _jst = rewire('../../dist/jst.js');
 
-test = jst.__get__('JST.test');
-isNode = jst.__get__('JST.isNode');
+JST = _jst.__get__('JST');
 
-describe('jst', function(){
-
-    describe('test', function(){
-        it('should be a function', function(){
-            expect(test).to.be.a('Function');
-        });
-    });
+describe('JST', function(){
 
     describe('isNode', function(){
         it('should be true if executed in node.js environment, otherwise false', function(){
 
             if(typeof global.it === 'function')
-                expect(isNode()).to.be.true;
+                expect(JST.isNode()).to.be.true;
             else
-                expect(isNode()).to.be.false;
+                expect(JST.isNode()).to.be.false;
+        });
+    });
+
+    describe('isBrowser', function(){
+        it('should be false if executed in node.js environment, otherwise true', function(){
+
+            if(typeof global.it === 'function')
+                expect(JST.isBrowser()).to.be.false;
+            else
+                expect(JST.isBrowser()).to.be.true;
+        });
+    });
+
+    describe('isOnline', function(){
+        it('should return a boolean value indicating online status', function(done){
+
+            if(typeof global.it === 'function')
+            {
+                var _callback = function(_bool){
+                    done();
+                    return expect(_bool).to.be.a('boolean');
+                };
+                JST.isOnline('gameworker.de', _callback);
+            }
+            else
+            {
+                expect(JST.isOnline()).to.be.a('boolean');
+            }
+
         });
     });
 });

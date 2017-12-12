@@ -13,12 +13,12 @@
                     if (err)
                     {
                         console.warn('JST.isOnline() : false -> No connection to ' + _host);
-                        _callback(false);
+                        _callback.call(this, false);
                     }
                     else
                     {
                         console.log('JST.isOnline() : true -> ' + _host, "is reachable.");
-                        _callback(true);
+                        _callback.call(this, true);
                     }
                 });
             }
