@@ -15,22 +15,22 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: 'C:\\Users\\js\\WebstormProjects\\jst',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package.tgz not in flight; packing
+8 verbose addLocalDirectory C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package.tgz not in flight; packing
 9 verbose correctMkdir C:\Users\js\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-10 info lifecycle @gameworker/jst@0.1.4~prepublish: @gameworker/jst@0.1.4
-11 silly lifecycle @gameworker/jst@0.1.4~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ 'C:\\Users\\js\\AppData\\Roaming\\npm-cache\\@gameworker\\jst\\0.1.4\\package.tgz',
+10 info lifecycle @gameworker/jst@0.1.5~prepublish: @gameworker/jst@0.1.5
+11 silly lifecycle @gameworker/jst@0.1.5~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\js\\AppData\\Roaming\\npm-cache\\@gameworker\\jst\\0.1.5\\package.tgz',
 12 verbose tar pack   'C:\\Users\\js\\WebstormProjects\\jst' ]
-13 verbose tarball C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package.tgz
+13 verbose tarball C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package.tgz
 14 verbose folder C:\Users\js\WebstormProjects\jst
-15 verbose addLocalTarball adding from inside cache C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package.tgz
+15 verbose addLocalTarball adding from inside cache C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package.tgz
 16 verbose correctMkdir C:\Users\js\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-17 silly cache afterAdd @gameworker/jst@0.1.4
-18 verbose afterAdd C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package\package.json not in flight; writing
+17 silly cache afterAdd @gameworker/jst@0.1.5
+18 verbose afterAdd C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package\package.json not in flight; writing
 19 verbose correctMkdir C:\Users\js\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-20 verbose afterAdd C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package\package.json written
+20 verbose afterAdd C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package\package.json written
 21 silly publish { name: '@gameworker/jst',
-21 silly publish   version: '0.1.4',
+21 silly publish   version: '0.1.5',
 21 silly publish   description: 'JavaScript Toolkit',
 21 silly publish   main: 'dist/jst.js',
 21 silly publish   scripts:
@@ -55,11 +55,11 @@
 21 silly publish      'grunt-contrib-watch': '1.0.0',
 21 silly publish      mocha: '4.0.1',
 21 silly publish      rewire: '3.0.2' },
-21 silly publish   readme: '# JST - JavaScript Toolkit\r\n![npm](https://img.shields.io/npm/v/@gameworker/jst.svg)\r\n![npm](https://img.shields.io/travis/gameworker/jst.svg)\r\n![npm](https://img.shields.io/npm/l/@gameworker/jst.svg)\r\n\r\n\r\nFor now, this is just a test.\r\n\r\n## Table of contents\r\n\r\n* [Getting started](#getting-started)\r\n* [API](#api)\r\n* [License](#license)\r\n\r\n\r\n## Getting started\r\n\r\n### 1. Get JST\r\n\r\nDownload from GitHub:\r\n* [jst.js](https://raw.githubusercontent.com/gameworker/jst/0.1.4/jst.js) - for development (not minified, with comments).\r\n* [jst.min.js](https://raw.githubusercontent.com/gameworker/jst/0.1.4/jst.min.js) - for production (minified, no comments).\r\n\r\nOr install with [npm](https://www.npmjs.com/):\r\n\r\n```bash\r\nnpm install @gameworker/jst\r\n```\r\n\r\n### 3. Add the script tags\r\n\r\nAdd JST on your site.\r\n\r\n```html\r\n<script src="jst.min.js"></script>\r\n```\r\n\r\n## API\r\n\r\n\r\n## License\r\n\r\nCopyright &copy; 2017 gameworker. Licensed under **[the MIT license](LICENSE.md)**.',
+21 silly publish   readme: '# JST - JavaScript Toolkit\r\n![npm](https://img.shields.io/npm/v/@gameworker/jst.svg)\r\n![npm](https://img.shields.io/travis/gameworker/jst.svg)\r\n![npm](https://img.shields.io/npm/l/@gameworker/jst.svg)\r\n\r\n\r\nFor now, this is just a test.\r\n\r\n## Table of contents\r\n\r\n* [Getting started](#getting-started)\r\n* [API](#api)\r\n* [License](#license)\r\n\r\n\r\n## Getting started\r\n\r\n### 1. Get JST\r\n\r\nDownload from GitHub:\r\n* [jst.js](https://raw.githubusercontent.com/gameworker/jst/master/dist/jst.js) - for development (not minified, with comments).\r\n* [jst.min.js](https://raw.githubusercontent.com/gameworker/jst/master/dist/jst.min.js) - for production (minified, no comments).\r\n\r\nOr install with [npm](https://www.npmjs.com/):\r\n\r\n```bash\r\nnpm install @gameworker/jst\r\n```\r\n\r\n### 3. Add the script tags\r\n\r\nAdd JST on your site.\r\n\r\n```html\r\n<script src="jst.min.js"></script>\r\n```\r\n\r\n## API\r\n\r\n\r\n## License\r\n\r\nCopyright &copy; 2017 gameworker. Licensed under **[the MIT license](LICENSE.md)**.',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '8e1b2241e2d8974ef7655cce47505e4da6c6b833',
-21 silly publish   _id: '@gameworker/jst@0.1.4',
-21 silly publish   _shasum: 'c790c148d506554d12fa30d6af5c3c20424a789e',
+21 silly publish   gitHead: '7f336e69c01119d7d51a978f02f12fc2b7a1715a',
+21 silly publish   _id: '@gameworker/jst@0.1.5',
+21 silly publish   _shasum: 'fc4cee6e8e63c0fbf54c3ab58a3798660bcf35ee',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name @gameworker/jst
@@ -77,28 +77,28 @@
 28 silly mapToRegistry   type: 'tag' }
 29 silly mapToRegistry uri https://registry.npmjs.org/@gameworker%2fjst
 30 verbose publish registryBase https://registry.npmjs.org/
-31 silly publish uploading C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.4\package.tgz
+31 silly publish uploading C:\Users\js\AppData\Roaming\npm-cache\@gameworker\jst\0.1.5\package.tgz
 32 verbose request uri https://registry.npmjs.org/@gameworker%2fjst
 33 verbose request sending authorization for write operation
-34 info attempt registry request try #1 at 17:43:14
+34 info attempt registry request try #1 at 17:52:23
 35 verbose request using bearer token for auth
-36 verbose request id fc86839b58b75bc0
+36 verbose request id bdb1aba21d992eb6
 37 http request PUT https://registry.npmjs.org/@gameworker%2fjst
 38 http 403 https://registry.npmjs.org/@gameworker%2fjst
 39 verbose headers { 'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=0',
 39 verbose headers   'content-length': '91',
 39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   date: 'Tue, 12 Dec 2017 16:43:20 GMT',
+39 verbose headers   date: 'Tue, 12 Dec 2017 16:52:29 GMT',
 39 verbose headers   via: '1.1 varnish',
 39 verbose headers   connection: 'keep-alive',
-39 verbose headers   'x-served-by': 'cache-hhn1520-HHN',
+39 verbose headers   'x-served-by': 'cache-hhn1523-HHN',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1513097000.536544,VS0,VE909' }
+39 verbose headers   'x-timer': 'S1513097548.902462,VS0,VE1183' }
 40 verbose request invalidating C:\Users\js\AppData\Roaming\npm-cache\registry.npmjs.org\_40gameworker_252fjst on PUT
 41 error publish Failed PUT 403
-42 verbose stack Error: You cannot publish over the previously published version 0.1.4. : @gameworker/jst
+42 verbose stack Error: You cannot publish over the previously published version 0.1.5. : @gameworker/jst
 42 verbose stack     at makeError (C:\program files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
 42 verbose stack     at CachingRegistryClient.<anonymous> (C:\program files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
 42 verbose stack     at Request._callback (C:\program files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
@@ -117,7 +117,7 @@
 48 error node v6.11.3
 49 error npm  v3.10.10
 50 error code E403
-51 error You cannot publish over the previously published version 0.1.4. : @gameworker/jst
+51 error You cannot publish over the previously published version 0.1.5. : @gameworker/jst
 52 error If you need help, you may report this error at:
 52 error     <https://github.com/npm/npm/issues>
 53 verbose exit [ 1, true ]

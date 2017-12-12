@@ -1,5 +1,5 @@
 /*! 
-* @gameworker/jst v0.1.4
+* @gameworker/jst v0.1.5
 * https://github.com/gameworker/jst.git
 * Copyright (c) 2017 gameworker
 * Licensed MIT

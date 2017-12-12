@@ -18,8 +18,8 @@ For now, this is just a test.
 ### 1. Get JST
 
 Download from GitHub:
-* [jst.js](https://raw.githubusercontent.com/gameworker/jst/0.1.4/jst.js) - for development (not minified, with comments).
-* [jst.min.js](https://raw.githubusercontent.com/gameworker/jst/0.1.4/jst.min.js) - for production (minified, no comments).
+* [jst.js](https://raw.githubusercontent.com/gameworker/jst/master/dist/jst.js) - for development (not minified, with comments).
+* [jst.min.js](https://raw.githubusercontent.com/gameworker/jst/master/dist/jst.min.js) - for production (minified, no comments).
 
 Or install with [npm](https://www.npmjs.com/):
 
